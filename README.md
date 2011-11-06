@@ -35,3 +35,22 @@ The following template files are available:
 * bootstrap.tpl - Twitter Bootstrap style
 * gnome.tpl - Gnome docs style
 * sphinx.tpl - Python docs style
+
+##Template Variables
+
+The following variables can be used within the templates:
+
+ * {CONTENT} - The content html rendered
+ * {TITLE} - Page title
+ * {TOC} - HTML Table of contents
+ * {LANG} - The manual language 
+ * {HOME_DESC} - The title of the index page
+ * {HOME_HREF} - The href of the index page
+ * {UP_DESC} - The title of the parent page
+ * {UP_HREF} - The href of the parent page
+ * {NEXT_DESC} - The title of the next page
+ * {NEXT_HREF} - The href of the next page
+ * {PREV_DESC} - The title of the previous page
+ * {PREV_HREF} - The href of the previous page
+ * {PHD_VERSION} - The current PhD version
+ * {PHD_URL} - PhD site URL
