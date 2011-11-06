@@ -7,8 +7,8 @@ This project is a proof of concept to make it easy to customize the PhD output.
 
 This package does not have an official pear channel yet. To install it you'll have to create the pear package yourself.
 
-`$ pear package package.xml`
-`$ pear install PhD_Template-0.1.0.tgz`
+`$ pear package package.xml`  
+`$ pear install PhD_Template-0.1.0.tgz`  
 
 ##Dependencies
 
@@ -17,11 +17,11 @@ This package does not have an official pear channel yet. To install it you'll ha
 
 ##Run
 
-For running the default template *bootstrap* run:
-`$ phd -d .manual.xml -f xhtml -P Template`
+For running the default template *bootstrap* run:  
+`$ phd -d .manual.xml -f xhtml -P Template`  
 
-To specify the template run:
-`$ phd -d .manual.xml -f xhtml -P Template --template-file ./phpdotnet/phd/Package/Template/templates/sphinx.tpl`
+To specify the template run:  
+`$ phd -d .manual.xml -f xhtml -P Template --template-file ./phpdotnet/phd/Package/Template/templates/sphinx.tpl`  
 
 ##Custom Options
 
